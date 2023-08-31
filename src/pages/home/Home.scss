@@ -1,0 +1,19 @@
+@import '../../Style.scss';
+
+.home {
+    @include themify($themes) {
+        background-color: themed('bgSoft');
+        font-size: 20px;
+        padding: 20px 45px;
+        overflow: hidden;
+ 
+
+        @include mobile {
+            padding: 5px !important;
+        }
+
+        @include tablet {
+            padding: 20px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "imageUrl": "../../src/assets/6.png",
+        "name": "Events"
+    },
+    {
+        "imageUrl": "../../src/assets/7.png",
+        "name": "Gaming"
+    },
+    {
+        "imageUrl": "../../src/assets/8.png",
+        "name": "Gallery"
+    },
+    {
+        "imageUrl": "../../src/assets/9.png",
+        "name": "Videos"
+    },{
+        "imageUrl":"../../src/assets/10.png",
+        "name":"Messages"
+    }
+]

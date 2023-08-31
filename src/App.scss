@@ -1,0 +1,20 @@
+@import './Style.scss';
+
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+    height: 100vh;
+
+    @include themify($themes) {
+            .body {
+                background-color: themed('bg');
+            }
+    }
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}

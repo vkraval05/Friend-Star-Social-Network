@@ -1,0 +1,14 @@
+[
+    {
+        "imageUrl": "../../src/assets/13.png",
+        "name": "Fund"
+    },
+    {
+        "imageUrl": "../../src/assets/11.png",
+        "name": "Tutorials"
+    },
+    {
+        "imageUrl": "../../src/assets/12.png",
+        "name": "Courses"
+    }
+]

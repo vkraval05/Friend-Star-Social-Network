@@ -1,0 +1,105 @@
+@import '../../Style.scss';
+
+
+.post {
+    @include themify($themes) {
+        -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+        -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+        box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+        border-radius: 20px;
+        background-color: themed("bg");
+        color: themed("textColor");
+
+        .container {
+            padding: 20px;
+
+            .user {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+                position: relative;
+
+                .userInfo {
+                    display: flex;
+                    gap: 20px;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+
+                    .details {
+                        display: flex;
+                        flex-direction: column;
+
+                        .name {
+
+                            font-weight: 500;
+                        }
+
+                        .date {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .moreHorizIcon {
+                    cursor: pointer;
+                }
+
+                button {
+                    position: absolute;
+                    top: 30px;
+                    right: 0;
+                    border: none;
+                    background-color: #f0544f;
+                    padding: 5px;
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+
+            .content {
+                margin: 20px 0px;
+
+
+
+                img {
+                    width: 100%;
+                    max-height: 500px;
+                    object-fit: contain;
+                    margin-top: 20px;
+
+                }
+
+                video {
+                    width: 100%;
+                    max-height: 500px;
+                    object-fit: contain;
+                    margin-top: 20px;
+                }
+            }
+
+            .info {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                flex-wrap: wrap;
+
+                .item {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    cursor: pointer;
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+}

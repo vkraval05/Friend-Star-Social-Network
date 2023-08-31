@@ -1,0 +1,22 @@
+[
+    {
+        "imageUrl": "../../src/assets/1.png",
+        "name": "Friends"
+    },
+    {
+        "imageUrl": "../../src/assets/2.png",
+        "name": "Groups"
+    },
+    {
+        "imageUrl": "../../src/assets/3.png",
+        "name": "Market"
+    },
+    {
+        "imageUrl": "../../src/assets/4.png",
+        "name": "Watch"
+    },
+    {
+        "imageUrl": "../../src/assets/5.png",
+        "name": "Memories"
+    }
+]
